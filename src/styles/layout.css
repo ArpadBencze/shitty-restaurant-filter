@@ -397,7 +397,7 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
 }
 pre {
   margin-left: 0;
@@ -594,4 +594,14 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.infoWindow {
+  width: 150px;
+  height: 100px;
+  background-color: white;
+}
+
+.visible {
+  visibility: visible;
 }
